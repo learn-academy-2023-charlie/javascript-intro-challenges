@@ -28,3 +28,4 @@ console.log ("LEARN"[0] === "l") // output = false
 console.log ("LEARN"[0] === "L") // output = true
 
 // test 22
+// test 23
