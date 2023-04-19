@@ -63,16 +63,22 @@ if(LEARN==="LEARN".length || Student==="Student".length){
 // output This is Ture!
 
 // Does "LEARN" contain the subset "RN"?
-var answer1 = "R"
-var answer2 = "N"
-if(answer1==="LEARN"[3] && answer2==="LEARN"[4]){
+
+if("LEARN".includes("RN")){
     console.log("This is Ture!");
 }else {
     console.log("This is False!");
 }
+// output This is Ture!
+
 
 // Does "LEARN" contain the subset "rn"?
-
+if("LEARN".includes("rn")){
+    console.log("This is Ture!");
+}else {
+    console.log("This is False!");
+}
+// output This is False!
 
 // Does "LEARN"[0] strictly equal "l"?
 var answer="l"
