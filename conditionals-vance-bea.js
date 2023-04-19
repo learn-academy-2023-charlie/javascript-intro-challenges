@@ -21,10 +21,10 @@ console.log (learn.length === "5" && student.length === "7")
 console.log (learn.length === "5" || student.length === "10")
 
 // Does "LEARN" contain the subset "RN"?
-console.log(learn[3,4] = "RN" )
+console.log(learn.includes ("RN"))
 
 // Does "LEARN" contain the subset "rn"?
-console.log(learn[3,4] = "rn")
+console.log(learn.includes ("rn"))
 
 // Does "LEARN"[0] strictly equal "l"?
 console.log(learn [0] === "l")
