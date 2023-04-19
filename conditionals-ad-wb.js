@@ -44,8 +44,50 @@ console.log(word.charAt(0) === "L")
 
 
 // Make sure you try different options and change the variables to ensure properly working code.
+
 // 	•	Write a statement that takes a variable of item and logs "in budget" if a price is $100 or less.
+var item = 76
+
+if (item < 101) {
+    console.log("in budget")
+} 
+else {
+    console.log("out of budget")
+}
+//in budget
+
+item = 105
+
+if (item < 101) {
+    console.log("in budget")
+} 
+else {
+    console.log("out of budget")
+}
+
+//out of budget
+
 // 	•	Write a statement that takes a variable of hungry and logs "eat food" if you are hungry and "keep coding" if you are not hungry.
+var hungry = true
+
+if (hungry) {
+    console.log("eat food")
+} 
+else {
+    console.log("keep coding")
+}
+//eat food 
+
+hungry = false
+
+if (hungry) {
+    console.log("eat food")
+} 
+else {
+    console.log("keep coding")
+}
+//keep coding
+
 // 	•	Write a statement that takes a variable of trafficLight and logs "go" if the light is green, "slow down" if the light is yellow and "stop" if the light is red.
 // 	•	Write a statement that takes two variables that are numbers and outputs the larger number. If the numbers are equal, output "the numbers are the same".
 	
