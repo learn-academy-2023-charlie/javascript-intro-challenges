@@ -23,10 +23,26 @@ let f = 5
 console.log(e / f) //=9
 
 // Write the code that will log the outcome of 5 to the power of 7.
+let g = 5
+let h = 7
+
+console.log(g**h)  // = 78125
 
 // Write the code that will log the whole number remainder of 33 divided by 6.
+let i = 33
+let j = 6
+
+console.log(i % j) // = 3
+
+
 // Write the code that will log the length of a string containing your name.
+let name = "Justin"
+
+console.log(name.length) // = 6
+
 // Write the code that will log whether your string includes the letter "e"?
+
+
 // Write the code that will log the character at the first index of the string.
 // Write the code that will log the string in all uppercase letters.
 
