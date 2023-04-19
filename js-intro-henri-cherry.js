@@ -44,16 +44,32 @@ console.log(greeting.toUpperCase()); //output: HELLO
 
 // Consider the variables:
 
-
-
-// const theQuestion = "life, the universe, and everything"
-// const theAnswer = 42
+const theQuestion = "life, the universe, and everything"
+const theAnswer = 42
 // Write the code that will log theAnswer divided by 2.
+
+console.log(theAnswer / 2); //output:
+
 // Write the code that will log the whole number remainder of theAnswer when divided by 3.
+
+console.log(theAnswer % 3); //output:
+
 // Write the code that will log the length of theQuestion.
+
+console.log(theQuestion.length); //output:
+
 // Write the code that will log the length of theQuestion divided by 2.
+
+console.log((theQuestion.length) / 2);
+
 // Write the code that will log the length of theQuestion added to theAnswer.
+
+console.log(theQuestion.length + theAnswer);
+
 // Write the code that will log the index of the character "f" in the theQuestion.
+
+console.log([2]);
+
 // Write the code that will log the index of the second comma in the theQuestion.
 // Write the code that will log the concatenation of the two variables.
 // Write the code that will log the character "l" from theQuestion.
