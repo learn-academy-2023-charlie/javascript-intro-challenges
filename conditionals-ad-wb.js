@@ -21,10 +21,28 @@ console.log(("LEARN".length === 5) && ("Student".length === 7))
 //true
 
 // 	•	Does "LEARN".length strictly equal 5 OR "Student".length strictly equal 10?
+console.log(("LEARN".length === 5) || ("Student".length === 10))
+//true
+
 // 	•	Does "LEARN" contain the subset "RN"?
+var word = "LEARN"
+console.log(word.includes("RN"))
+//true
+
 // 	•	Does "LEARN" contain the subset "rn"?
+console.log(word.includes("rn"))
+//false
+
 // 	•	Does "LEARN"[0] strictly equal "l"?
+console.log(word.charAt(0) === "l")
+//false
+
 // 	•	Modify the code from the previous question to return true.
+console.log(word.charAt(0) === "L")
+//true
+
+
+
 // Make sure you try different options and change the variables to ensure properly working code.
 // 	•	Write a statement that takes a variable of item and logs "in budget" if a price is $100 or less.
 // 	•	Write a statement that takes a variable of hungry and logs "eat food" if you are hungry and "keep coding" if you are not hungry.
