@@ -1,9 +1,17 @@
 // Write the code that will log the outcome of 34 added to 71.
 let myNum = 34
 console.log(myNum + 71)
+
 // Write the code that will log the outcome of 67 subtracted from 123.
+myNum = 67
+console.log(123 - myNum)
+
 // Write the code that will log the outcome of 56 multiplied by 23.
+myNum = 56
+console.log(myNum * 23)
+
 // Write the code that will log the outcome of 45 divided by 5.
+
 // Write the code that will log the outcome of 5 to the power of 7.
 // Write the code that will log the whole number remainder of 33 divided by 6.
 // Write the code that will log the length of a string containing your name.
