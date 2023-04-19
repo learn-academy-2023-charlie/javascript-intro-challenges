@@ -26,3 +26,5 @@ console.log ("LEARN".includes ("rn")) // output = false
 console.log ("LEARN"[0] === "l") // output = false
 // Modify the code from the previous question to return true.
 console.log ("LEARN"[0] === "L") // output = true
+
+// test
