@@ -2,6 +2,7 @@
 
 console.log(34+71);
 // output 105
+//.
 
 // Write the code that will log the outcome of 67 subtracted from 123.
 
