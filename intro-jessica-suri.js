@@ -2,7 +2,7 @@
 console.log (34+71)
 
 // Write the code that will log the outcome of 67 subtracted from 123.
-
+console.log (67-123)
 
 // Write the code that will log the outcome of 56 multiplied by 23.
 
