@@ -67,43 +67,67 @@ console.log(numSet.indexOf(2));
 
 // Write the code that finds the index of the last appearance of the number 2.
 
-//output: 
+console.log(numSet.lastIndexOf(2));
+//output: 5
 
 // Write the code that returns the number at the third index.
 
-//output: 
+console.log(numSet[2]);
+//output: 6
 
 // Consider the variable:
 
 var characters = ["y", "a", "r", "r", "a"]
 // Write the code that brings all the letters in the characters array together into a string.
 
-//output: 
+console.log(characters.join(""));
+//output: yarra
 
 // Write the code that reverses the order of the letters in the characters array and saves it into a variable called charsReversed.
-
+var charsReversed = characters.reverse();
+console.log(charsReversed);
 //output: 
+// [ 'a', 'r', 'r', 'a', 'y' ]
 
 // Write the code that brings all the letters in the charsReversed array together into a string with an asterisk between each letter.
 
-//output: 
+console.log(charsReversed.join("*"));
+//output: a*r*r*a*y
 
 // Write the code that brings all the letters in the charsReversed array together into a string without separators.
 
-//output: 
+console.log(charsReversed.join(""));
+//output: array
 
 // Create two arrays consisting of three first names of your cohort members in each.
+var charlieNames = ["Bea", "Aubrey", "C Rod"]
+var charlieNames2 = ["Jessica", "Halie", "Henri"]
+//output: 
 
 // Write the code that sorts the names in alphabetical order.
+console.log(charlieNames.sort());
+console.log(charlieNames2.sort());
+//output: [ 'Aubrey', 'Bea', 'C Rod' ]
+// [ 'Halie', 'Henri', 'Jessica' ]
 
 // Write the code that sorts the names in reverse alphabetical order.
+console.log(charlieNames.sort().reverse());
+console.log(charlieNames2.sort().reverse());
+//output: [ 'C Rod', 'Bea', 'Aubrey' ]
+// [ 'Jessica', 'Henri', 'Halie' ]
 
 // Write the code that sorts all the names in alphabetical order in a single array.
+console.log(charlieNames.concat(charlieNames2).sort());
+
+//output: [ 'Aubrey', 'Bea', 'C Rod', 'Halie', 'Henri', 'Jessica' ]
 
 // Consider the variables:
-
-// var numbers = [42, 221, 71, 7, 18, 87]
-// var oddIndexes = []
+var numbers = [42, 221, 71, 7, 18, 87]
+var oddIndexes = []
 // Write the code that logs the values from the numbers array that are at odd indexes.
 
+//output: 
+
 // Write the code that adds the values from odd indexes into the oddIndexes array
+
+//output: 
