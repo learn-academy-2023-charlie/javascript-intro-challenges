@@ -53,10 +53,12 @@ console.log(newerNumber);
 
 // Write the code that will add the number 0 to the beginning of the array without altering the original array. HINT: it's not .unshift You'll have to get creative! ;)
 
+//^^DONE 
 
 // Consider the variable:
 
 // var numSet = [2, 13, 6, 8, 4, 2]
+
 // Write the code that finds the index of the first appearance of the number 2.
 
 // Write the code that finds the index of the last appearance of the number 2.
