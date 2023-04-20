@@ -26,7 +26,7 @@ console.log(groceryList);
 
 var shoppingList = groceryList.slice(0,2)
 console.log(shoppingList);
-
+.
 
 // Write the code that will add "beans" to the "chips" and "dip" array.
 
