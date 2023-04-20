@@ -49,6 +49,8 @@
 // Consider this variable:
     const nums = [3, 57, -9, 20, 67]
     let highNum = 0
+    let lowNum = 0
+
 // Create the code that will log the largest number from the array.
 // for(let i = 0; i < nums.length; i++) {
 //     if (highNum < nums[i]) {
@@ -58,11 +60,17 @@
 // console.log(highNum);
 
 // Create the code that will log the smallest number from the array.
-
+for (let i = 0; i < nums.length; i++ ) {
+    if (lowNum > nums[i]) {
+        lowNum = nums[i];
+    }
+}
+console.log(lowNum)
 
 // Create the code that will log the remainder of each number when divided by 2. Expected output: 1, 1, -1, 0, 1
-// Consider this variable:
 
+
+// Consider this variable:
 // const myString = "learn student"
 // Create the code that will log the number of times the letter "e" occurs in the string.
 // Create the code that will log every other character in the string.
