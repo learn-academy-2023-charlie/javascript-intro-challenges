@@ -6,40 +6,53 @@
 
 
 
-// // Write the code that will add "granola" to the end of array without altering the original array.
-var groceryList = ["chips", "dip", "cookies"]
-var snack = ["granola"]
+// // // Write the code that will add "granola" to the end of array without altering the original array.
+// var groceryList = ["chips", "dip", "cookies"]
+// var snack = ["granola"]
 
-var combinedArray = groceryList.concat(snack) 
+// var combinedArray = groceryList.concat(snack) 
 // console.log(combinedArray);
 
 
 
-// Write the code that will return a subset of the array containing only "chips" and "dip".
+// // Write the code that will return a subset of the array containing only "chips" and "dip".
 
-// console.log(groceryList.pop())
-console.log(groceryList);
+// // // console.log(groceryList.pop())
+// // console.log(groceryList);
 
-console.log(groceryList.slice(0,2))
+// console.log(groceryList.slice(0,2))
 
-console.log(groceryList);
+// console.log(groceryList);
 
-var shoppingList = groceryList.slice(0,2)
-console.log(shoppingList);
-.
+// var shoppingList = groceryList.slice(0,2)
+// console.log(shoppingList);
 
-// Write the code that will add "beans" to the "chips" and "dip" array.
+// // Write the code that will add "beans" to the "chips" and "dip" array.
+// console.log(shoppingList + ", beans")
 
 // Consider the variable:
 
-// var numbers = [2, 4, 6, 8, 10]
+var numbers = [2, 4, 6, 8, 10]
+
+
 // Write the code that will add the number 0 to the beginning of the array.
+var zero = [0]
+var newNumber = zero.concat(numbers)
+// console.log(newNumber)
+
 
 // Write the code that will add the number 12 to the end of the array.
+var twelve = [12]
+var newerNumber = newNumber.concat(twelve)
+// console.log(newerNumber)
 
 // Write the code that will remove the first number from the array.
+console.log(newerNumber.reverse());
+console.log(newerNumber.pop())
+console.log(newerNumber);
 
 // Write the code that will add the number 0 to the beginning of the array without altering the original array. HINT: it's not .unshift You'll have to get creative! ;)
+
 
 // Consider the variable:
 
