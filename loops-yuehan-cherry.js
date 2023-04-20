@@ -29,11 +29,26 @@
 // Expected output: ODD, 2, ODD, 4, ODD, 6 ...etc
 
 // Consider this variable:
---------------------------------
-// const nums = [3, 57, -9, 20, 67]
+
+const nums = [3, 57, -9, 20, 67]
 // Create the code that will log the largest number from the array.
+var numsSorted = nums.sort((a, b) => a - b)
+
+console.log(numsSorted.slice(nums.length-1));
+// output: as expected
+
+
 // Create the code that will log the smallest number from the array.
+
+console.log(numsSorted.slice(0, 1));
+// output: as expected
+
+
 // Create the code that will log the remainder of each number when divided by 2. Expected output: 1, 1, -1, 0, 1
+for (let i = 0; i < nums.length; i++){
+    console.log(nums[i] % 2);
+}
+
 // Consider this variable:
 
 // const myString = "learn student"
