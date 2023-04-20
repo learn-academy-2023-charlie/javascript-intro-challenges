@@ -34,6 +34,7 @@
 //     if ([i] % 2 === 1)  {
 //         console.log("ODD")
 //     } else {
+//         console.log([i])
 
 //     }
 // }
@@ -43,8 +44,15 @@
 // Expected output: ODD, 2, ODD, 4, ODD, 6 ...etc
 // Consider this variable:
 
-// const nums = [3, 57, -9, 20, 67]
+const nums = [3, 57, -9, 20, 67]
 // Create the code that will log the largest number from the array.
+// console.log(nums.sort())
+
+for (i = 0; i < nums.length; i++){
+    if([i])
+}
+
+
 // Create the code that will log the smallest number from the array.
 // Create the code that will log the remainder of each number when divided by 2. Expected output: 1, 1, -1, 0, 1
 // Consider this variable:
