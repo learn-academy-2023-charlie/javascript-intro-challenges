@@ -52,3 +52,34 @@ console.log (numSet.lastIndexOf(2))
 
 // Write the code that returns the number at the third index.
 console.log (numSet.slice(2,3))
+
+// Consider the variable:
+ var characters = ["y", "a", "r", "r", "a"]
+
+// Write the code that brings all the letters in the characters array together into a string.
+console.log(characters.join(""))
+
+// Write the code that reverses the order of the letters in the characters array and saves it into a variable called charsReversed.
+var charsReversed = characters.reverse()
+console.log(charsReversed)
+
+// Write the code that brings all the letters in the charsReversed array together into a string with an asterisk between each letter.
+console.log(charsReversed.join("*"))
+
+// Write the code that brings all the letters in the charsReversed array together into a string without separators.
+console.log(charsReversed.join(""))
+
+// Create two arrays consisting of three first names of your cohort members in each.
+var learnStudents1 = ["Vance", "Catalino", "Kyle"] 
+var learnStudents2 = ["Rashaan", "Aubrey", "Bea"]
+console.log(learnStudents1, learnStudents2)
+
+// Write the code that sorts the names in alphabetical order.
+console.log(learnStudents1.sort(), learnStudents2.sort())
+
+// Write the code that sorts the names in reverse alphabetical order.
+console.log(learnStudents1.sort().reverse(), learnStudents2.sort().reverse())
+
+// Write the code that sorts all the names in alphabetical order in a single array.
+console.log(learnStudents1.concat(learnStudents2).sort())
+
