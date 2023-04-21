@@ -101,4 +101,8 @@ var myOtherArray = ["sarah","scott","bea"]
 // Write the code that sorts all the names in alphabetical order in a single array.
 
 // console.log(myArray.concat(myOtherArray).sort().reverse())
+
 // output: [ 'scott', 'sarah', 'kyle', 'ernesto', 'cherry', 'bea' ]
+
+// output: [ 'scott', 'sarah', 'kyle', 'ernesto', 'cherry', 'bea' ]
+
