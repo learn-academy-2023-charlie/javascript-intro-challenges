@@ -43,9 +43,47 @@
 
 // Write a function named triple that takes a number as an argument and returns the result of that number multiplied by 3.
 
+// name a function called triple
+// takes an argument of a number
+// multiply that number by 3
+// return the multiplied number
+
+// const triple = (enterANumber) => {
+//     return enterANumber * 3
+// }
+// console.log(triple(-5));
+
+// -15
+
 // Write a function named multiply that takes two numbers as arguments and returns the result of the numbers multiplied together.
 
+// name a function called multiply
+// take two arguments of two numbers
+// multiply the two numbers 
+// return the multiplied numbers
+
+const multiply = (numberOne, numberTwo) => {
+    return numberOne * numberTwo
+}
+console.log(multiply(5,5));
+
+// output is 25
+
+
 // Write a function named divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
+
+
+// create a function named divisibleBy 
+// take in two numbers as arguments 
+// figure out if the first number is evenly divisible by the second number
+// return the output the first number is evenly divisble by the second number
+
+const divisibleBy = (firstNumber, secondNumber) => {
+    if(firstNumber / secondNumber != float){
+        
+    }
+}
+
 
 // Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
 
