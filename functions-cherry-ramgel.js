@@ -13,6 +13,13 @@
     console.log(oddOrEven(1));
 // Write a function named triple that takes a number as an argument and returns the result of that number multiplied by 3.
 
+// goal: writing a fx named triple
+// input: number
+// output: number * 3
+
+const triple = (numberToBeMultipliedBy3) => {console.log(numberToBeMultipliedBy3*3);}
+triple(2)
+
 // Write a function named multiply that takes two numbers as arguments and returns the result of the numbers multiplied together.
 
 // Write a function named divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
