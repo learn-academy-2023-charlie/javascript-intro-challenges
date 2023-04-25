@@ -43,9 +43,7 @@ const divisibleBy= (num1, num2) => {
     }
 }
 console.log(divisibleBy ( 7,5))
-// Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
-
-
+// Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.??
 // Write a function named isLonger that takes two strings as arguments and returns the string that contains the most characters.
 
 // Write a function named greaterNum that takes two numbers as arguments and returns whichever number is the greater (higher) number.
